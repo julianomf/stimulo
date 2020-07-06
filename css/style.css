@@ -14,7 +14,7 @@
     margin: 0 auto!important;
     font-family: 'Roboto Slab', serif;
     font-size: 18px;
-   
+
 }
 i:hover{
     color: #f65aa7;
@@ -24,7 +24,7 @@ i:hover{
     font-size: 12px;
     color: white;
     margin: 5px 5px;
-    
+
 }
 .icon-scp .left-side {
     display: flex;
@@ -36,13 +36,13 @@ i:hover{
     margin: 0 5px 0 0;
 }
 .contact-color{
-    background-color: #232323;
+    background-color: #533278;
     min-height: 50px;
 }
 
 .col-disp{
     margin: 10px;
-    display: flex; 
+    display: flex;
 }
 
 .link-head{
@@ -55,28 +55,26 @@ i:hover{
 }
 
 .nav-bg-color{
-
-background-color: white;
-
+  background-image: linear-gradient(to top right, #e64460, #533278);
 }
 .nav-contain{
-margin-top: 35px;
-margin-bottom: 35px;
+margin-top: 0px;
+margin-bottom: 0px;
 
 }
 .navbar img{
     width: 200px;
 }
 .nav-list .menu {
-    color: #333333;
+    color: #fdc52e;
     font-family: 'Roboto Slab', serif;
     font-size: 13px;
     line-height: 26px;
     padding: 0 20px;
-    text-decoration: none;        
+    text-decoration: none;
 }
 .nav-list .menu:hover {
-    color: #f65aa7;
+    color: #96c11f;
 }
 .color-line{
     color: #999999!important;
@@ -110,15 +108,15 @@ margin-bottom: 35px;
     .navbar-nav .color-line {
         display: none;
     }
-     
-    
+
+
 }
-@media (max-width: 575.98px) { 
+@media (max-width: 575.98px) {
     .icon-scp .left-side  {
         display: grid;
     }
     .icon-scp .left-side .link-head {
-        margin: 3px 0; 
+        margin: 3px 0;
     }
     .icon-scp .left-side  span {
         display: none;
@@ -135,13 +133,13 @@ margin-bottom: 35px;
 }
 .first-slider {
     min-height: 800px;
-    
-    background-image: url('../max-image/bussines-2.jpg');
+
+    background-image: url('../max-image/homebg.jpg');
     background-size: cover;
 }
 .first-slider-1 {
     min-height: 800px;
-   
+
     background-image: url('../max-image/bussines-1.jpg');
     background-size: cover;
 }
@@ -149,11 +147,23 @@ margin-bottom: 35px;
 .second{
     color: #9fd7ef!important;
 }
+.amarelo {
+	color: #fdc52e!important;
+}
+.verde {
+	color: #96c11f!important;
+}
+.azul {
+	color: #0082c0!important;
+}
+.lilas {
+	color: #e84260!important;
+}
 .bs-card{
     color: #f65aa7!important;
 }
-@media (max-width: 991.98px) { 
-    .carousel-control-prev, 
+@media (max-width: 991.98px) {
+    .carousel-control-prev,
     .carousel-control-next {
         display: none;
     }
@@ -194,13 +204,13 @@ margin-bottom: 35px;
 }
 .carousel-text{
 
-    padding-top:260px;
+    padding-top:60px;
     text-align: center;
 }
 .carousel-text p {
     font-family: 'Open Sans', sans-serif;
     padding-top:40px;
-    font-size: 14px;
+    font-size: 44px;
     color: #ffffff;
     text-shadow: 3px 3px 5px #000;
 
@@ -208,7 +218,7 @@ margin-bottom: 35px;
 .butns{
     margin-top: 45px;
 }
-.about-btn{  
+.about-btn{
     color: #333333;
     border-radius: 8px;
      margin: 20px;
@@ -223,12 +233,12 @@ margin-bottom: 35px;
 
 }
 .about-btn:hover{
-    background-color:#f65aa7; 
+    background-color:#f65aa7;
     color: #ffffff;
     text-decoration: none;
 }
 .work-btn:hover{
-    background-color:#f65aa7; 
+    background-color:#f65aa7;
     color: #ffffff;
     text-decoration: none;
 }
@@ -298,7 +308,7 @@ margin-bottom: 35px;
     color: #777777;
     font-size: 14px;
     text-align: center;
-    font-family: 'Open Sans';  
+    font-family: 'Open Sans';
     min-height: 84px;
 }
 .our-spec i{
@@ -328,14 +338,14 @@ margin-bottom: 35px;
     color: white;
     text-align: center;
     font-size: 13px;
-    font-family: 'Open Sans', sans-serif;  
+    font-family: 'Open Sans', sans-serif;
     border-radius: 6px;
     border: none;
 }
 .rd-btn{
     margin: 38px auto;
     text-align: center;
-} 
+}
 .read-more:hover{
     text-decoration: none;
     color: white;
@@ -356,7 +366,7 @@ margin-bottom: 35px;
 .overlay span{
     text-align: center;
     font-size: 14px;
-    font-family: 'Open Sans';  
+    font-family: 'Open Sans';
     color: white;
     padding-top: 10px;
     padding-bottom: 20px;
@@ -366,7 +376,7 @@ margin-bottom: 35px;
     font-weight: bold;
     background-color: white;
     font-size: 13px;
-    font-family: 'Open Sans', sans-serif;  
+    font-family: 'Open Sans', sans-serif;
     border: none;
     border-radius: 5px;
     padding: 10px 15px;
@@ -380,7 +390,7 @@ margin-bottom: 35px;
  }
  .stars:hover{
     color: #fbc725;
- 
+
  }
  .prom-padd{
     padding-bottom: 60px;
@@ -390,15 +400,15 @@ margin-bottom: 35px;
     transition: 0.5s;
     cursor: pointer;
  }
- 
+
 .product-top:hover {
     background-color: #f65aa7;
     z-index: 999;
 }
 .product-top {
     min-width: 100%;
-    min-height: 300px;  
-    
+    min-height: 300px;
+
 }
 .product-top-1{
       background-image: url('../max-image/post-card.jpg');
@@ -436,7 +446,7 @@ margin-bottom: 35px;
  .product-text p{
     text-align: center;
     font-size: 16px;
-    font-family: 'Open Sans', sans-serif;  
+    font-family: 'Open Sans', sans-serif;
     color: #f65aa7;
     font-weight: bold;
 }
@@ -446,14 +456,14 @@ margin-bottom: 35px;
 }
 .capa-head {
     color: white;
-    padding-top: 130px; 
+    padding-top: 130px;
 }
 .capa-head .vr-line h2{
     text-transform: uppercase;
-    font-size: 32px;  
-  
+    font-size: 32px;
+
 }
-@media (max-width: 991.98px) { 
+@media (max-width: 991.98px) {
     .capa-head {
         text-align: center;
     }
@@ -587,7 +597,7 @@ display: flex;
     display: block;
     margin-left: 0;
     opacity: 0;
-   
+
 }
 .col-overlay p{
     font-size: 14px;
@@ -600,7 +610,7 @@ display: flex;
     margin:  auto;
     background-color: rgba(246, 90, 167, 0.7);
     width: 100%;
-    height: 100%; 
+    height: 100%;
 }
 .icon-overlay{
     text-align: center;
@@ -618,10 +628,10 @@ display: flex;
 }
 .icon-overlay a:hover{
     background-color: #9fd7ef;
-    color: #ffffff;  
+    color: #ffffff;
     }
-.icon-overlay a:hover i{ 
-    color: #ffffff;          
+.icon-overlay a:hover i{
+    color: #ffffff;
 }
 
 .owl-carousel .owl-next,
@@ -639,7 +649,7 @@ display: flex;
 .owl-carousel .owl-prev {
     left: -90px;
 }
-@media (max-width: 1400px){ 
+@media (max-width: 1400px){
 
       .owl-theme .owl-nav [class*='owl-'] {
         background: rgba(0,0,0,0.1)!important;
@@ -658,7 +668,7 @@ display: flex;
     width: 10px!important;
     height: 10px!important;
     border-radius: 0;
-}  
+}
 .owl-theme .owl-dots .owl-dot.active  {
     background: #ffffff!important;
     border: 2px solid #9fd7ef;
@@ -677,7 +687,7 @@ display: flex;
  }
  .screan-hover {
     width: auto;
-    height: auto;     
+    height: auto;
     padding: 0;
     position: relative;
     overflow: hidden;
@@ -688,8 +698,8 @@ display: flex;
     width: 100%;
     height: 100%;
     position: absolute;
-    
-    
+
+
 }
 .over-image span{
 font-size:16px;
@@ -719,27 +729,27 @@ padding: 15px 35px;
 .item-bg-1{
     background-image: url('../max-image/our-team.jpg');
     background-size: cover;
-}    
+}
 .item-bg-2{
     background-image: url('../max-image/our-team-1.jpg');
     background-size: cover;
-}     
+}
 .item-bg-3{
     background-image: url('../max-image/our-team-3.jpg');
     background-size: cover;
-}  
+}
 .item-bg-4{
     background-image: url('../max-image/our-team-2.jpg');
     background-size: cover;
-} 
+}
 .item-bg-5{
     background-image: url('../max-image/our-team-4.jpg');
     background-size: cover;
-}  
+}
 .item-bg-6{
     background-image: url('../max-image/our-team-5.jpg');
     background-size: cover;
-}    
+}
 .details-link{
     position: absolute;
     top: 45%;
@@ -770,7 +780,7 @@ padding: 15px 35px;
     opacity: 1;
     transition: 1s;
     margin: 5% auto;
-  
+
 }
 .contact-bg{
     background-image: url('../image/background.jpg');
@@ -781,7 +791,7 @@ padding: 15px 35px;
     padding-top: 80px;
     padding-bottom: 80px;
 }
-@media (max-width: 991.98px) { 
+@media (max-width: 991.98px) {
     .contact-con {
         text-align: center;
     }
@@ -832,7 +842,7 @@ padding: 15px 35px;
 }
 .contact:hover{
     text-decoration: none;
-   color:#f1efe5; 
+   color:#f1efe5;
 }
 .img-box{
 width: 90px!important;
@@ -877,14 +887,14 @@ color: #777777;
 .author span{
     font-size: 14px;
     font-weight: bold;
-    font-family: 'Roboto Slab', serif; 
+    font-family: 'Roboto Slab', serif;
     color: #9fd7ef;
     text-transform: uppercase;
 }
 .author p{
     font-size: 14px;
     font-weight: bold;
-    font-family: 'Open sans'; 
+    font-family: 'Open sans';
     color: #747272
 }
 .partner-logo{
@@ -898,7 +908,7 @@ color: #777777;
     background-color: #f9f9f9;
     min-height: 300px;
 }
-@media (max-width: 575.98px) { 
+@media (max-width: 575.98px) {
     .partner-bg {
         min-height: 0px;
     }
@@ -920,7 +930,7 @@ color: #777777;
 }
 .dream-text p{
     font-size: 14px;
-    font-family: 'Open sans'; 
+    font-family: 'Open sans';
     color: #dedede;
     padding-top: 20px;
 }
@@ -936,13 +946,13 @@ color: #777777;
 @media (max-width: 768px){
     .pop-col{
         margin: 20px 0;
-    
+
     }
     }
 .pop-col span{
     font-size: 16px;
     font-weight: bold;
-    font-family: 'Roboto Slab', serif; 
+    font-family: 'Roboto Slab', serif;
     color: #ffffff;
     text-transform: uppercase;
 }
@@ -956,7 +966,7 @@ color: #777777;
     margin-bottom: 20px;
     text-transform: uppercase;
     font-size: 13px;
-    font-family: 'Open Sans'; 
+    font-family: 'Open Sans';
     color: #dedede;
     display: flex;
 }
@@ -989,13 +999,13 @@ margin: 0 5px;
     text-decoration: underline;
     text-transform: uppercase;
     font-size: 13px;
-    font-family: 'Roboto Slab', serif; 
+    font-family: 'Roboto Slab', serif;
     color: #9fd7ef;
     font-weight: bold;
 }
 .view-blog:hover{
     color: #9fd7ef;
-   
+
 }
 .contact-icon{
     border: 1px solid #9fd7ef;
@@ -1028,7 +1038,7 @@ margin: 0 5px;
     margin-right: auto;
     margin-left: auto;
 }
-svg i:hover{ 
+svg i:hover{
     color: #232323;
 }
 .progres-icon{
@@ -1120,13 +1130,13 @@ svg i:hover{
 	stroke: rgb(186, 223, 172);
 }
 .progress .value, .progress .text {
-	
+
 	fill: rgb(255, 255, 255);
 	text-anchor: middle;
 }
 .progress .text {
     font-size: 9px;
-    font-family: 'Roboto Slab', serif; 
+    font-family: 'Roboto Slab', serif;
     transform: rotate(180deg)translate(-40px, -10px);
 }
 .progress .value {
