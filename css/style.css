@@ -55,7 +55,7 @@ i:hover{
 }
 
 .nav-bg-color{
-  background-image: linear-gradient(to top right, #e64460, #533278);
+  background-image: linear-gradient(to top right, #533177, #533177);
 }
 .nav-contain{
 margin-top: 0px;
@@ -132,15 +132,21 @@ margin-bottom: 0px;
     color: white;
 }
 .first-slider {
-    min-height: 800px;
-
-    background-image: url('../max-image/homebg.jpg');
+	min-width: 1351px;
+    min-height: 475px;
+    background-image: url('../image/Banner1.png');
     background-size: cover;
 }
 .first-slider-1 {
-    min-height: 800px;
-
-    background-image: url('../max-image/bussines-1.jpg');
+	min-width: 1351px;
+    min-height: 475px;
+    background-image: url('../image/Banner2.png');
+    background-size: cover;
+}
+.first-slider-2 {
+	min-width: 1351px;
+    min-height: 475px;
+    background-image: url('../image/Banner3.png');
     background-size: cover;
 }
 
@@ -158,6 +164,9 @@ margin-bottom: 0px;
 }
 .lilas {
 	color: #e84260!important;
+}
+.roxo {
+	color: #533077!important;
 }
 .bs-card{
     color: #f65aa7!important;
