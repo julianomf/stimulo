@@ -416,11 +416,11 @@ margin-bottom: 0px;
 }
 .product-top {
     min-width: 100%;
-    min-height: 300px;
+    min-height: 500px;
 
 }
 .product-top-1{
-      background-image: url('../max-image/post-card.jpg');
+      background-image: url('../image/people.jpg');
       background-size: cover;
 }
 .product-top-2{
@@ -432,7 +432,7 @@ margin-bottom: 0px;
     background-size: cover;
 }
 .product-top-4{
-    background-image: url('../max-image/bussines-card-2.jpg');
+    background-image: url('../image/sentidos.png');
     background-size: cover;
 }
 .product-top button{
@@ -740,7 +740,7 @@ padding: 15px 35px;
     background-size: cover;
 }
 .item-bg-2{
-    background-image: url('../max-image/our-team-1.jpg');
+    background-image: url('../image/Andrea.jpg');
     background-size: cover;
 }
 .item-bg-3{
