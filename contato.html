@@ -1,0 +1,43 @@
+<html>
+<head>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="http://malsup.github.io/min/jquery.cycle2.min.js"></script>
+<script>
+	$(document).ready(function() {
+		$("#submit").click(function() {
+			var name = $("#name").val();
+			var email = $("#email").val();
+			var message = $("#message").val();
+			var contact = $("#contact").val();
+			$("#returnmessage").empty(); // To empty previous error/success message.
+			// Checking for blank fields.
+			if (name == '' || email == '' || contact == '') {
+				alert("Please Fill Required Fields");
+			} else {
+				// Returns successful data submission message when the entered information is stored in database.
+				$.post("contact_form.php", {
+					name1 : name,
+					email1 : email,
+					message1 : message,
+					contact1 : contact
+				}, function(data) {
+					$("#returnmessage").append(data); // Append returned message to message paragraph.
+					if (data == "Your Query has been received, We will contact you soon.") {
+						$("#form")[0].reset(); // To reset form fields on success.
+					}
+				});
+			}
+		});
+	});
+</script>
+</head>
+<body>
+	<form onSubmit="MM_validateForm('name','','R','comments','','R');return document.MM_returnValue" id="contactform">
+		<label for="name">Full Name: <input name="name" type="text" id="name" required="required"></label><br /> <br /> <label for="email">Email: <input name="email" type="email" id="email" required="required"></label><br /> <br /> <label
+			for="comments">Comments: <textarea name="comments" id="comments" required></textarea></label><br /> <br /> <input name="submit" type="submit" id="submit" formaction="confirmation.html" formmethod="POST" formtarget="_self"
+			action="mailto:julianomf00@gmail.com">
+	</form>
+
+	<script src="js/form.js"></script>
+</body>
+</html>

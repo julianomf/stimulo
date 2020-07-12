@@ -17,7 +17,7 @@
 
 }
 i:hover{
-    color: #f65aa7;
+    color: #e84260;
     cursor: pointer;
 }
 .icon-scp{
@@ -50,7 +50,7 @@ i:hover{
 }
 .link-head:hover{
     text-decoration: none;
-    color: #f65aa7;
+    color: #e84260;
     cursor: pointer;
 }
 
@@ -87,7 +87,7 @@ margin-bottom: 0px;
     max-height: 800px;
 }
 .icon-color {
-    color: #f65aa7!important;
+    color: #e84260!important;
     margin: 1px auto
 }
 
@@ -169,7 +169,7 @@ margin-bottom: 0px;
 	color: #533077!important;
 }
 .bs-card{
-    color: #f65aa7!important;
+    color: #e84260!important;
 }
 @media (max-width: 991.98px) {
     .carousel-control-prev,
@@ -242,12 +242,12 @@ margin-bottom: 0px;
 
 }
 .about-btn:hover{
-    background-color:#f65aa7;
+    background-color:#e84260;
     color: #ffffff;
     text-decoration: none;
 }
 .work-btn:hover{
-    background-color:#f65aa7;
+    background-color:#e84260;
     color: #ffffff;
     text-decoration: none;
 }
@@ -326,14 +326,14 @@ margin-bottom: 0px;
     text-align: center;
 }
 .rounded-circle{
-    border: 1px dashed #f65aa7;
+    border: 1px dashed #e84260;
     margin-bottom: 25px;
-    color: #f65aa7;
+    color: #e84260;
     padding: 35px 0;
     font-size: 45px;
 }
 .rounded-circle:hover{
-    background-color: #f65aa7;
+    background-color: #e84260;
     color: #ffffff;
 }
 .money-back i {
@@ -411,7 +411,7 @@ margin-bottom: 0px;
  }
 
 .product-top:hover {
-    background-color: #f65aa7;
+    background-color: #e84260;
     z-index: 999;
 }
 .product-top {
@@ -456,7 +456,7 @@ margin-bottom: 0px;
     text-align: center;
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
-    color: #f65aa7;
+    color: #e84260;
     font-weight: bold;
 }
 .capa-bg{
@@ -496,7 +496,7 @@ margin-bottom: 0px;
     font-size: 32px;
     font-weight: bold;
     font-family: 'Roboto Slab', serif;
-    color: #f65aa7;
+    color: #e84260;
  }
  .vr-line{
 display: flex;
@@ -521,7 +521,7 @@ display: flex;
       border: none;
   }
   .linker-work button:hover{
-    color: #f65aa7;
+    color: #e84260;
         text-decoration: none;
   }
   @media (max-width: 576px ) {
@@ -592,7 +592,7 @@ display: flex;
     margin: auto;
 }
 .col-over:hover{
-    background-color: #f65aa7;
+    background-color: #e84260;
     z-index: 999;
     width: 100%;
     height: 50%;
@@ -627,7 +627,7 @@ display: flex;
 }
 .icon-overlay i{
     font-size: 13px;
-    color: #f65aa7;
+    color: #e84260;
 }
 .icon-overlay a{
     background-color: #f9f9f9;
@@ -776,12 +776,12 @@ padding: 15px 35px;
     background-color: rgba(51, 51, 51, 0.6);
 }
 .item-bg:hover .social-icon{
-    background-color: #f65aa7;
+    background-color: #e84260;
     color: #ffffff;
 
 }
 .item-bg:hover .over-image h3 {
-    background-color: #f65aa7;
+    background-color: #e84260;
     color: #ffffff;
 
 }
@@ -844,7 +844,7 @@ padding: 15px 35px;
     font-weight: bold;
     font-family: 'Open Sans';
     padding: 15px 40px;
-    background-color: #f65aa7;
+    background-color: #e84260;
     text-align: center;
     border-radius: 8px;
     color: #f1efe5;
@@ -870,7 +870,7 @@ font-size: 14px;
 color: #777777;
 }
 .testimonial p i {
-    color: #f65aa7;
+    color: #e84260;
     padding-top: 20px;
 }
 .stars-icon i {
@@ -923,14 +923,14 @@ color: #777777;
     }
 }
 .footer-bg{
-    background-color: #232323;
+    background-color: #533077;
     color: #f9f9f9;
 }
 .footer-padd{
     padding: 75px 0;
 }
 .foot-logo{
-    max-width: 145px;
+    max-width: 350px;
     max-height: 50px;
     margin-bottom: 30px;
 }
@@ -966,7 +966,7 @@ color: #777777;
     text-transform: uppercase;
 }
 .pop-col hr{
-    border: 1px solid #f65aa7;
+    border: 1px solid #e84260;
     width: 65px;
     margin-left: 0;
     margin-right: 0;
@@ -998,7 +998,7 @@ margin: 0 5px;
 .blog-icon{
     margin-right:5px;
     font-size: 13px;
-    color: #f65aa7;
+    color: #e84260;
 }
 .recent-hr{
     border: 0.5px solid  #777777!important;
@@ -1039,7 +1039,7 @@ margin: 0 5px;
     color: #fff;
 }
 .copyright-text a:hover {
-    color: #f65aa7;
+    color: #e84260;
     text-decoration:none;
 }
 /*===== The CSS =====*/
@@ -1133,7 +1133,7 @@ svg i:hover{
 	transition: stroke-dashoffset 2s;
 }
 .progress.blue .fill {
-	stroke: #f65aa7;
+	stroke: #e84260;
 }
 .progress.green .fill {
 	stroke: rgb(186, 223, 172);
@@ -1152,7 +1152,7 @@ svg i:hover{
     transform: rotate(180deg)translate(-40px, -10px);
     font-size: 9px;
     font-family: 'Roboto Slab', serif;
-    fill: #f65aa7;
+    fill: #e84260;
 }
 .noselect {
     -webkit-touch-callout: none;
