@@ -65,10 +65,11 @@ font-size: 13px;
     margin-right: 20px; 
 }
 .center-img {
-	width: 100%;
-	min-height: 500px;
+	min-height: 800px;
 	background-image: url('../image/froot-loops-on-face.jpg');
 	background-size: cover;
+	background-position: center;
+	margin-top: 80px;
 }  
 .why-row-padd p {
     font-size: 14px;
