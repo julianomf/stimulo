@@ -164,6 +164,10 @@ i:hover {
 	color: #533077 !important;
 }
 
+.branco {
+	color: #FFFFFF !important;
+}
+
 .bs-card {
 	color: #e84260 !important;
 }
@@ -359,7 +363,7 @@ i:hover {
 }
 
 .promotion-bg {
-	background-color: #f9f9f9;
+	background-color: #533077;
 }
 
 .overlay {
@@ -1321,22 +1325,22 @@ svg i:hover {
 	}
 	.first-slider {
 		background-image: url('../image/BannerMobile1.png');
-		background-size: contain;
+		background-size: cover;
 		background-repeat: no-repeat;
 	}
 	.first-slider-1 {
 		background-image: url('../image/BannerMobile2.png');
-		background-size: contain;
+		background-size: cover;
 		background-repeat: no-repeat;
 	}
 	.first-slider-2 {
 		background-image: url('../image/BannerMobile3.png');
-		background-size: contain;
+		background-size: cover;
 		background-repeat: no-repeat;
 	}
 	.div-sentidos {
 		background-image: url('../image/sentidosMobile.png');
-		background-size: contain;
+		background-size: cover;
 		background-repeat: no-repeat;
 	}
 	
