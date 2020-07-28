@@ -113,24 +113,31 @@ i:hover {
 }
 
 .first-slider {
-	min-width: 1351px;
 	min-height: 475px;
 	background-image: url('../image/Banner1.png');
-	background-size: cover;
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 
 .first-slider-1 {
-	min-width: 1351px;
 	min-height: 475px;
 	background-image: url('../image/Banner2.png');
-	background-size: cover;
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 
 .first-slider-2 {
-	min-width: 1351px;
 	min-height: 475px;
 	background-image: url('../image/Banner3.png');
-	background-size: cover;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.div-sentidos {
+	min-height: 475px;
+	background-image: url('../image/sentidos.png');
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 
 .second {
@@ -1242,20 +1249,15 @@ svg i:hover {
 	.first-slider-2 {
 		min-height: 580px;
 	}
+	.div-sentidos {
+		min-height: 580px;
+	}
+		
 }
 
 @media ( max-width : 1400px) {
 	.owl-theme .owl-nav [class*='owl-'] {
 		background: rgba(0, 0, 0, 0.1) !important;
-	}
-	.first-slider {
-		min-height: 580px;
-	}
-	.first-slider-1 {
-		min-height: 580px;
-	}
-	.first-slider-2 {
-		min-height: 580px;
 	}
 }
 
@@ -1266,15 +1268,6 @@ svg i:hover {
 	}
 	.last-spc {
 		padding: 0 10px !important;
-	}
-	.first-slider {
-		min-height: 580px;
-	}
-	.first-slider-1 {
-		min-height: 580px;
-	}
-	.first-slider-2 {
-		min-height: 580px;
 	}
 }
 
@@ -1327,23 +1320,26 @@ svg i:hover {
 		font-size: 20px !important;
 	}
 	.first-slider {
-		min-width: 320px;
-		min-height: 580px;
 		background-image: url('../image/BannerMobile1.png');
-		background-size: cover;
+		background-size: contain;
+		background-repeat: no-repeat;
 	}
 	.first-slider-1 {
-		min-width: 320px;
-		min-height: 580px;
 		background-image: url('../image/BannerMobile2.png');
-		background-size: cover;
+		background-size: contain;
+		background-repeat: no-repeat;
 	}
 	.first-slider-2 {
-		min-width: 320px;
-		min-height: 580px;
 		background-image: url('../image/BannerMobile3.png');
-		background-size: cover;
+		background-size: contain;
+		background-repeat: no-repeat;
 	}
+	.div-sentidos {
+		background-image: url('../image/sentidosMobile.png');
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	
 	.icon-scp .left-side {
 		display: grid;
 	}
